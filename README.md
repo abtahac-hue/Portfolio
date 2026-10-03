@@ -1,6 +1,6 @@
-# Abtaha Chowdhury — Cybersecurity Portfolio
+# Abtaha Chowdhury Portfolio
 
-I'm a cybersecurity student at Florida International University, with interests in governance, risk, compliance, security analysis, IT, and digital forensics. This portfolio brings together my completed solo projects, coursework, and experience in AI evaluation, banking, healthcare, tutoring, and community service.
+I'm a cybersecurity student @Florida International University, with interests in governance, risk, compliance, security analysis, IT, and digital forensics. This portfolio brings together my projects, coursework, and experience in AI evaluation, banking, healthcare, tutoring, and community service.
 
 **[Visit my portfolio](https://abtaha-security-portfolio.abtahac.chatgpt.site)**
 
@@ -13,14 +13,12 @@ I'm a cybersecurity student at Florida International University, with interests 
 
 ## About the website
 
-The portfolio includes searchable project cards with expandable notes, work experience, leadership and community service, technical skills, and coursework. Its dark design uses floating security and tech symbols with a pause control and support for reduced-motion preferences.
+The portfolio includes searchable project cards with expandable notes, my work experience, leadership and community service, technical skills, and coursework. 
 
-The website uses plain HTML, CSS, and JavaScript. Open `index.html` in a browser to preview it locally; no installation or build step is needed.
-
-## Connect
+## Connect with me
 
 - [LinkedIn](https://www.linkedin.com/in/abtahac)
 - [GitHub](https://github.com/abtahac-hue)
 - [Email](mailto:abtahac@gmail.com)
 
-I'll keep adding projects, investigations, and experiences as I move through my cybersecurity journey.
+I'll keep updating and adding projects, investigations, and experiences as I move through my cybersecurity journey.
