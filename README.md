@@ -2,7 +2,7 @@
 
 I'm a cybersecurity student @Florida International University, with interests in governance, risk, compliance, security analysis, IT, and digital forensics. This portfolio brings together my projects, coursework, and experience in AI evaluation, banking, healthcare, tutoring, and community service.
 
-**[Visit my portfolio](https://abtaha-security-portfolio.abtahac.chatgpt.site)**
+**[Visit my portfolio](https://abtahac-hue.github.io/Portfolio/)**
 
 ## Featured projects
 
@@ -22,3 +22,4 @@ The portfolio includes searchable project cards with expandable notes, my work e
 - [Email](mailto:abtahac@gmail.com)
 
 I'll keep updating and adding projects, investigations, and experiences as I move through my cybersecurity journey.
+
