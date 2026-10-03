@@ -4,7 +4,7 @@ I'm a cybersecurity student @Florida International University, with interests in
 
 **[Visit my portfolio](https://abtahac-hue.github.io/Portfolio/)**
 
-## Featured projects
+## Latest projects
 
 - **[Suspicious-login investigation](https://github.com/abtahac-hue/security-log-analyzer):** reviewing synthetic authentication logs and documenting a suspicious login sequence.
 - **[GRC Foundations](https://github.com/abtahac-hue/grc-foundations):** a risk register, NIST CSF control mapping, acceptable use policy, and vendor questionnaire for a fictional business.
