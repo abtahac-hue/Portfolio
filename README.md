@@ -10,7 +10,6 @@ I'm a cybersecurity undergraduate at Florida International University interested
 - **[GRC Foundations](https://github.com/abtahac-hue/grc-foundations)** — Risk register, NIST CSF control mapping, acceptable use policy, and vendor assessment for a fictional business.
 - **[Suspicious-login investigation](https://github.com/abtahac-hue/security-log-analyzer)** — Python log analysis and documented security findings using synthetic authentication records.
 - **[PhishGuard](https://github.com/abtahac-hue/phishguard)** — Interactive phishing-awareness project with a tested FastAPI backend.
-- **[MechWar-X](https://github.com/abtahac-hue/mechwar-x)** — FIU group database project using Python and MySQL to manage records, deployment workflows, and maintenance.
 
 ## Experience
 
