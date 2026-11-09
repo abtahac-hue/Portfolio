@@ -78,6 +78,7 @@
     <section class="section projects-section" id="projects" aria-labelledby="projects-title">
       <div class="shell">
         <div class="section-heading"><div><p class="eyebrow section-kicker">03 / WHAT I’VE BUILT</p><h2 id="projects-title">Selected projects<span class="accent">.</span></h2></div><p class="section-intro">Selected work highlighting access governance, risk and compliance, security analysis, and database-driven systems—skills relevant to financial services and business technology.</p></div>
+        <div class="project-spotlight-intro"><div><span class="spotlight-kicker">FINANCIAL SERVICES–RELEVANT WORK</span><h3>Controls. Clarity. Confidence.</h3><p>These featured projects show how I approach access oversight, documented risk decisions, and practical governance—foundations that matter in regulated organizations.</p></div><a class="spotlight-jump" href="#featured-projects">Explore featured work <span aria-hidden="true">↗</span></a></div>
         <div class="project-controls" hidden>
           <div class="filters" role="group" aria-label="Filter projects by focus">
             <button type="button" class="filter active" data-filter="all" aria-pressed="true">All work</button>
@@ -89,9 +90,34 @@
           <label class="search-field"><span class="search-label">Search projects</span><input id="project-search" type="search" placeholder="Search projects or skills…" autocomplete="off"></label>
         </div>
         <div class="results-line" hidden><p id="project-count" role="status" aria-live="polite" aria-atomic="true">5 projects</p><button id="reset-filters" class="text-button" type="button" hidden>Clear filters</button></div>
-        <div class="project-grid">
-          <article class="project-card featured-project" data-category="analysis">
-            <div class="project-topline"><span class="project-number">01 / INVESTIGATION</span><span class="status">Completed · Solo</span></div>
+        <div class="project-grid" id="featured-projects">
+<article class="project-card spotlight-card spotlight-access" data-category="grc">
+            <div class="project-topline"><span class="project-number">01 / ACCESS GOVERNANCE</span><span class="status">Completed · Solo</span></div>
+            <div class="grc-preview" aria-label="AccessLens demonstrates access inventory and review decisions"><div class="preview-meta"><span>ACCESSLENS</span><span>ACCESS REVIEW</span></div><div class="document-list"><span><b>01</b> Account inventories</span><span><b>02</b> Privileged access flags</span><span><b>03</b> Review decisions</span><span><b>04</b> CSV reporting</span></div></div>
+            <div class="project-copy"><p class="spotlight-overline">FEATURED / IDENTITY &amp; CONTROLS</p><h3>AccessLens <span class="spotlight-title-small">/ Access Review Dashboard</span></h3><p>Built an account access review dashboard using fictional data to flag potentially risky accounts, document review decisions, and make identity governance workflows easier to follow.</p><ul class="tags" aria-label="Project skills"><li>Access governance</li><li>Risk review</li><li>FastAPI</li><li>SQL</li></ul></div>
+            <details class="project-notes"><summary>Read project notes<span class="detail-plus" aria-hidden="true">+</span></summary><div class="notes-content"><h4>What it does</h4><p>Validates imported account inventories, identifies privileged accounts without MFA and those inactive for 90 days or more, and records reviewer decisions and notes.</p><h4>Why it matters</h4><p>Structured access reviews and documented decisions are relevant to identity governance and internal controls in regulated industries, including financial services.</p><p class="artifact-note">Independent portfolio project · Fictional account data</p><p><a href="https://accesslens-abtaha.onrender.com/" target="_blank" rel="noopener noreferrer">Open the live demo</a></p></div></details>
+            <a class="project-repo" href="https://github.com/abtahac-hue/accesslens" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">EXPLORE PROJECT ↗</span></a>
+          </article>
+          
+<article class="project-card spotlight-card spotlight-grc" data-category="grc">
+            <div class="project-topline"><span class="project-number">02 / RISK & COMPLIANCE</span><span class="status">Completed · Solo</span></div>
+            <div class="grc-preview" aria-label="GRC Foundations includes a risk register, control mapping, policy, and vendor assessment">
+              <div class="preview-meta"><span>HARBOR &amp; BEAN</span><span>FICTIONAL BUSINESS</span></div>
+              <div class="document-list"><span><b>01</b> Risk register</span><span><b>02</b> Control mapping</span><span><b>03</b> Acceptable use policy</span><span><b>04</b> Vendor assessment</span></div>
+            </div>
+            <div class="project-copy"><p class="spotlight-overline">FEATURED / GOVERNANCE &amp; RISK</p><h3>GRC Foundations</h3><p>I wanted to see what GRC work looks like beyond definitions. I put together a set of security documents for a fictional Miami coffee business, with risks, owners, control gaps, and practical next steps.</p><ul class="tags" aria-label="Project skills"><li>Risk assessment</li><li>NIST CSF</li><li>Policy writing</li></ul></div>
+            <details class="project-notes"><summary>Read project notes<span class="detail-plus" aria-hidden="true">+</span></summary><div class="notes-content">
+              <h4>The scenario</h4><p>Harbor &amp; Bean Coffee Co. is a fictional Miami business with three café locations and an online store. Its small IT team needs a realistic way to prioritize security work.</p>
+              <h4>What’s in the work sample</h4><p>An eight-risk register with likelihood, impact, treatments, and owners; a control mapping across the six NIST CSF functions; an acceptable use policy; and a 20-question vendor assessment.</p>
+              <h4>The part I care about</h4><p>A risk score needs a reason behind it. Vendor answers also need evidence: a “yes” by itself doesn’t establish that a control is effective.</p>
+              <p class="artifact-note">Completed solo project · Fictional business scenario</p>
+            </div></details>
+            <a class="project-repo" href="https://github.com/abtahac-hue/grc-foundations" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">VIEW WORK SAMPLES ↗</span></a>
+          </article>
+
+          
+<article class="project-card featured-project" data-category="analysis">
+            <div class="project-topline"><span class="project-number">03 / INVESTIGATION</span><span class="status">Completed · Solo</span></div>
             <div class="investigation-preview" aria-label="Practice case: five failed logins from 203.0.113.42, followed by a sample successful login">
               <div class="preview-meta"><span>AUTHENTICATION LOG</span><span>LAB DATA</span></div>
               <code class="case-ip">203.0.113.42</code>
@@ -108,24 +134,9 @@
             <a class="project-repo" href="https://github.com/abtahac-hue/security-log-analyzer" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">SOURCE + SAMPLE LOGS</span></a>
           </article>
 
-          <article class="project-card" data-category="grc">
-            <div class="project-topline"><span class="project-number">02 / RISK &amp; COMPLIANCE</span><span class="status">Completed · Solo</span></div>
-            <div class="grc-preview" aria-label="GRC Foundations includes a risk register, control mapping, policy, and vendor assessment">
-              <div class="preview-meta"><span>HARBOR &amp; BEAN</span><span>FICTIONAL BUSINESS</span></div>
-              <div class="document-list"><span><b>01</b> Risk register</span><span><b>02</b> Control mapping</span><span><b>03</b> Acceptable use policy</span><span><b>04</b> Vendor assessment</span></div>
-            </div>
-            <div class="project-copy"><h3>GRC Foundations</h3><p>I wanted to see what GRC work looks like beyond definitions. I put together a set of security documents for a fictional Miami coffee business, with risks, owners, control gaps, and practical next steps.</p><ul class="tags" aria-label="Project skills"><li>Risk assessment</li><li>NIST CSF</li><li>Policy writing</li></ul></div>
-            <details class="project-notes"><summary>Read project notes<span class="detail-plus" aria-hidden="true">+</span></summary><div class="notes-content">
-              <h4>The scenario</h4><p>Harbor &amp; Bean Coffee Co. is a fictional Miami business with three café locations and an online store. Its small IT team needs a realistic way to prioritize security work.</p>
-              <h4>What’s in the work sample</h4><p>An eight-risk register with likelihood, impact, treatments, and owners; a control mapping across the six NIST CSF functions; an acceptable use policy; and a 20-question vendor assessment.</p>
-              <h4>The part I care about</h4><p>A risk score needs a reason behind it. Vendor answers also need evidence: a “yes” by itself doesn’t establish that a control is effective.</p>
-              <p class="artifact-note">Completed solo project · Fictional business scenario</p>
-            </div></details>
-            <a class="project-repo" href="https://github.com/abtahac-hue/grc-foundations" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">DOCUMENTS + SCENARIO</span></a>
-          </article>
-
-          <article class="project-card" data-category="awareness">
-            <div class="project-topline"><span class="project-number">03 / PHISHING AWARENESS</span><span class="status">Completed · Solo</span></div>
+          
+<article class="project-card" data-category="awareness">
+            <div class="project-topline"><span class="project-number">04 / PHISHING AWARENESS</span><span class="status">Completed · Solo</span></div>
             <div class="phish-preview"><div class="preview-meta"><span>PHISHGUARD</span><span>SECURITY AWARENESS</span></div><p>Pause.<br>Check.<br><span>Then decide.</span></p><span class="preview-caption">AN INTERACTIVE SECURITY PROJECT</span></div>
             <div class="project-copy"><h3>PhishGuard</h3><p>I built PhishGuard to turn a phishing-awareness idea into an interactive security project. It connects a frontend with a tested backend and gave me practice checking how the pieces work together.</p><ul class="tags" aria-label="Project skills"><li>Phishing awareness</li><li>FastAPI</li><li>API testing</li></ul></div>
             <details class="project-notes"><summary>Read project notes<span class="detail-plus" aria-hidden="true">+</span></summary><div class="notes-content">
@@ -136,14 +147,8 @@
             </div></details>
             <a class="project-repo" href="https://github.com/abtahac-hue/phishguard" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">SOURCE + TESTS</span></a>
           </article>
-          <article class="project-card" data-category="grc">
-            <div class="project-topline"><span class="project-number">04 / ACCESS GOVERNANCE</span><span class="status">Completed · Solo</span></div>
-            <div class="grc-preview" aria-label="AccessLens demonstrates access inventory and review decisions"><div class="preview-meta"><span>ACCESSLENS</span><span>ACCESS REVIEW</span></div><div class="document-list"><span><b>01</b> Account inventories</span><span><b>02</b> Privileged access flags</span><span><b>03</b> Review decisions</span><span><b>04</b> CSV reporting</span></div></div>
-            <div class="project-copy"><h3>AccessLens — Access Review Dashboard</h3><p>Built an account access review dashboard using fictional data to flag potentially risky accounts, document review decisions, and make identity governance workflows easier to follow.</p><ul class="tags" aria-label="Project skills"><li>Access governance</li><li>Risk review</li><li>FastAPI</li><li>SQL</li></ul></div>
-            <details class="project-notes"><summary>Read project notes<span class="detail-plus" aria-hidden="true">+</span></summary><div class="notes-content"><h4>What it does</h4><p>Validates imported account inventories, identifies privileged accounts without MFA and those inactive for 90 days or more, and records reviewer decisions and notes.</p><h4>Why it matters</h4><p>Structured access reviews and documented decisions are relevant to identity governance and internal controls in regulated industries, including financial services.</p><p class="artifact-note">Independent portfolio project · Fictional account data</p><p><a href="https://accesslens-abtaha.onrender.com/" target="_blank" rel="noopener noreferrer">Open the live demo</a></p></div></details>
-            <a class="project-repo" href="https://github.com/abtahac-hue/accesslens" target="_blank" rel="noopener noreferrer">View GitHub repository<span class="repo-label">SOURCE + DEMO</span></a>
-          </article>
-          <article class="project-card" data-category="builds">
+          
+<article class="project-card" data-category="builds">
             <div class="project-topline"><span class="project-number">05 / DATABASE SYSTEMS</span><span class="status">FIU · Group Project</span></div>
             <div class="game-preview"><div class="preview-meta"><span>MECHWAR-X</span><span>MYSQL + PYTHON</span></div><p>Data.<br><span>Decisions.</span></p><div class="game-facts"><span>SQL</span><span>Transactions</span><span>Desktop GUI</span></div></div>
             <div class="project-copy"><h3>MechWar-X — Database Command Center</h3><p>Contributed to a database-driven desktop application for managing inventory, deployment schedules, and maintenance records through a graphical interface backed by MySQL.</p><ul class="tags" aria-label="Project skills"><li>MySQL</li><li>Python</li><li>Data management</li><li>Teamwork</li></ul></div>
